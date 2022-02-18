@@ -1,0 +1,111 @@
+/*! css/icon.css */
+/*! assets/9334/afp/css/icon.css */
+@font-face {
+    font-family: 'apiary';
+    src:  url('https://s3.estateweb.com/9334/css/fonts/apiary.eot?ff4ews');
+    src:  url('https://s3.estateweb.com/9334/css/fonts/apiary.eot?ff4ews#iefix') format('embedded-opentype'),
+      url('https://s3.estateweb.com/9334/css/fonts/apiary.ttf?ff4ews') format('truetype'),
+      url('https://s3.estateweb.com/9334/css/fonts/apiary.woff?ff4ews') format('woff'),
+      url('https://s3.estateweb.com/9334/css/fonts/apiary.svg?ff4ews#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="apiary-"], [class*=" apiary-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'apiary' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .apiary-video:before {
+    content: "\e919";
+  }
+  .apiary-visual:before {
+    content: "\e91a";
+  }
+  .apiary-mobile:before {
+    content: "\e918";
+  }
+  
+  .apiary-starFill:before {
+    content: "\e917";
+  }
+  
+  .apiary-unlock:before {
+    content: "\e909";
+  }
+  .apiary-lock:before {
+    content: "\e916";
+  }
+  .apiary-fax:before {
+    content: "\e906";
+  }
+  .apiary-star:before {
+    content: "\e900";
+  }
+  .apiary-noSavedPro:before {
+    content: "\e902";
+  }
+  .apiary-view:before {
+    content: "\e90d";
+  }
+  .apiary-thumbs:before {
+    content: "\e90e";
+  }
+  .apiary-street:before {
+    content: "\e90f";
+  }
+  .apiary-share:before {
+    content: "\e901";
+  }
+  .apiary-fillHex:before {
+    content: "\e903";
+  }
+  .apiary-print:before {
+    content: "\e904";
+  }
+  .apiary-phone:before {
+    content: "\e905";
+  }
+  .apiary-noPro:before {
+    content: "\e907";
+  }
+  .apiary-arrow:before {
+    content: "\e910";
+  }
+  .apiary-pin:before {
+    content: "\e911";
+  }
+  .apiary-hex:before {
+    content: "\e912";
+  }
+  .apiary-halfHex:before {
+    content: "\e913";
+  }
+  .apiary-floorplan:before {
+    content: "\e908";
+  }
+  .apiary-epc:before {
+    content: "\e90a";
+  }
+  .apiary-email:before {
+    content: "\e90b";
+  }
+  .apiary-cameraAp:before {
+    content: "\e90c";
+  }
+  .apiary-brochure:before {
+    content: "\e914";
+  }
+  .apiary-dArrows:before {
+    content: "\e915";
+  }
+  
