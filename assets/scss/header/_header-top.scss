@@ -113,12 +113,8 @@
 
 
             & img {
-                // width: 185px;
                 margin: 0 auto;
                 max-height: 99px;
-                // @media #{$desktop-device, $tablet-device, $large-mobile} {
-                //     // width: 130px;
-                // }
             }
         }
     }
@@ -131,23 +127,24 @@
     & .main-menu {
         display: flex;
 
+        @media(min-width: 991px){
+            & > li:not(:first-child):before{
+                --menu-list-item-dot-size: 3px;
+                content: "";
+                width: var(--menu-list-item-dot-size);
+                height: var(--menu-list-item-dot-size);
+                background: $black;
+                border-radius: 50em;
+                position: absolute;
+                left: -2px;
+                top: 50%;
+            }
+        }
+
         & li {
             position: relative;
             padding: 55px 15px;
 
-            @media(min-width: 991px){
-                &:not(:first-child):before{
-                    --menu-list-item-dot-size: 3px;
-                    content: "";
-                    width: var(--menu-list-item-dot-size);
-                    height: var(--menu-list-item-dot-size);
-                    background: $black;
-                    border-radius: 50em;
-                    position: absolute;
-                    left: -2px;
-                    top: 50%;
-                }
-            }
             .apiary-dArrows {
                 transform: translateX(-50%) rotate(-90deg);
                 position: absolute;

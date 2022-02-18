@@ -1644,12 +1644,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .header-navigation .main-menu {
   display: flex;
 }
-.header-navigation .main-menu li {
-  position: relative;
-  padding: 55px 15px;
-}
 @media (min-width: 991px) {
-  .header-navigation .main-menu li:not(:first-child):before {
+  .header-navigation .main-menu > li:not(:first-child):before {
     --menu-list-item-dot-size: 3px;
     content: "";
     width: var(--menu-list-item-dot-size);
@@ -1660,6 +1656,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     left: -2px;
     top: 50%;
   }
+}
+.header-navigation .main-menu li {
+  position: relative;
+  padding: 55px 15px;
 }
 .header-navigation .main-menu li .apiary-dArrows {
   transform: translateX(-50%) rotate(-90deg);
